@@ -50,10 +50,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
 
     // Unit tests
-    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
 
     // Instrumentation tests
-    androidTestCompile('com.android.support.test.espresso:espresso-contrib:2.2.1') {
+    compile('com.android.support.test.espresso:espresso-contrib:2.2.1') {
         exclude group: 'com.android.support', module: 'support-v4'
     }
 }
