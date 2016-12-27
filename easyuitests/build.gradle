@@ -8,12 +8,12 @@ ext {
     libraryName = 'EasyUITests'
     artifact = 'easyuitests'
 
-    libraryDescription = 'Helper library that reduces the boilerplate code when writing ui tests with Espresso'
+    libraryDescription = 'A helper library that reduces the boilerplate code when writing ui tests with Espresso'
 
     siteUrl = 'https://github.com/sebamaty/easy-ui-tests'
     gitUrl = 'https://github.com/sebamaty/easy-ui-tests.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.6'
 
     developerId = 'sebamaty'
     developerName = 'Sebastian Matysiak'
