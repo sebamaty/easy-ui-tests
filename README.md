@@ -3,7 +3,7 @@ A helper library that reduces the boilerplate code when writing UI tests with Es
 
 # Usage example
 Add the following code to a UI test class:
-```java
+```android
 @Rule
 public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<>(MainActivity.class);
 
@@ -14,7 +14,7 @@ public void assertWelcomeText() throws Exception {
 ```
 # Download
 ```gradle
-androidTestCompile 'com.sebamaty:easyuitests:1.0.0'
+androidTestCompile 'com.sebamaty:easyuitests:1.0.6'
 ```
 Make sure you have added [JUnit][junit] dependency. Android Studio won't find @Rule annotation and ActivityTestRule class otherwise.
 [junit]: https://github.com/junit-team/junit4/wiki/Use-with-Gradle
