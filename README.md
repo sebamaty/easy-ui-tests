@@ -3,7 +3,7 @@ A helper library that reduces the boilerplate code when writing UI tests with Es
 
 # Usage example
 Add the following code to a UI test class:
-```java
+```android
 @Rule
 public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<>(MainActivity.class);
 
