@@ -1,5 +1,5 @@
 # easy-ui-tests
-A helper library that reduces the boilerplate code when writing UI tests with Espresso.
+A helper library for Android that reduces the boilerplate code when writing UI tests with Espresso.
 
 # Usage example
 Add the following code to a UI test class:
