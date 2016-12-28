@@ -3,7 +3,7 @@ A helper library for Android that reduces the boilerplate code when writing UI t
 
 # Usage example
 Add the following code to a UI test class:
-```android
+```java
 @Rule
 public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<>(MainActivity.class);
 
@@ -11,6 +11,43 @@ public ActivityTestRule<MainActivity> activityTestRule = new ActivityTestRule<>(
 public void assertWelcomeText() throws Exception {
     UiTestsHelper.assertTextOnViewWithId(R.id.welcome_text_view, "Hello World!");
 }
+```
+# Quick docs
+All methods below are static and void
+```java
+assertTextOnListViewItem(String text)
+
+assertTextOnRecyclerViewItem(int recyclerViewId, int position, int childViewId, String text)
+
+assertTextOnViewWithId(int viewId, String text)
+
+checkIfViewIsDisplayed(int viewId)
+
+checkIfViewIsNotDisplayed(int viewId)
+
+checkIfViewWithTextIsDisplayed(String text)
+
+checkIfViewWithTextIsNotDisplayed(String text)
+
+clickOnItemChildInRecyclerView(int recyclerViewId, int position, int childViewId)
+
+clickOnItemInListView(int listViewId, int itemPosition)
+
+clickOnItemInRecyclerView(int recyclerViewId, int position)
+
+clickOnView(int viewId)
+
+clickOnViewWithText(String text)
+
+isButtonSelected(int buttonId)
+
+replaceTextOnView(int viewId, String text)
+
+scrollToAndClickOnView(int viewId)
+
+scrollToAndClickOnViewWithText(String text)
+
+scrollToPositionInRecyclerView(int recyclerViewId, int position)
 ```
 # Download
 ```gradle
