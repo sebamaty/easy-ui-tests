@@ -12,7 +12,7 @@ public void assertWelcomeText() throws Exception {
     UiTestsHelper.assertTextOnViewWithId(R.id.welcome_text_view, "Hello World!");
 }
 ```
-# Quick docs
+# What can you test with it?
 All methods below are static and void
 ```java
 assertTextOnListViewItem(String text)
